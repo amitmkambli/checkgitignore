@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T15:51:27 IST" name="Suite" finished-at="2024-05-22T15:51:37 IST" duration-ms="9595">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T15:51:27 IST" name="Test" finished-at="2024-05-22T15:51:37 IST" duration-ms="9595">
+      <class name="Reports.DemoParallelTest">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:27 IST" name="beforemethod" finished-at="2024-05-22T15:51:32 IST" duration-ms="4361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:27 IST" name="beforemethod" finished-at="2024-05-22T15:51:32 IST" duration-ms="4584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:27 IST" name="beforemethod" finished-at="2024-05-22T15:51:31 IST" duration-ms="3345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="passTest1()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:31 IST" name="passTest1" finished-at="2024-05-22T15:51:34 IST" duration-ms="3376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest1 -->
+        <test-method signature="failTest()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:32 IST" name="failTest" finished-at="2024-05-22T15:51:34 IST" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method signature="passTest2()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:32 IST" name="passTest2" finished-at="2024-05-22T15:51:34 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:34 IST" name="aftermethod" finished-at="2024-05-22T15:51:35 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:34 IST" name="aftermethod" finished-at="2024-05-22T15:51:35 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:34 IST" name="aftermethod" finished-at="2024-05-22T15:51:35 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:35 IST" name="beforemethod" finished-at="2024-05-22T15:51:36 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="skipTest()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:36 IST" name="skipTest" finished-at="2024-05-22T15:51:37 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Reports.DemoParallelTest@6e6f2380]" started-at="2024-05-22T15:51:37 IST" name="aftermethod" finished-at="2024-05-22T15:51:37 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Reports.DemoParallelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
