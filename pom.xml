@@ -162,7 +162,25 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
+					<properties>
+			       <!--<property>   
+			            <name>parallel</name>     
+			            <value>methods</value>  
+			        </property>-->
+			        <!--<property>   
+			            <name>threadcount</name>
+			            <value>5</value>        
+			        </property>-->
+			        <property>
+			            <name>dataproviderthreadcount</name>   
+			            <value>3</value>
+			        </property>
+			    </properties>
+			    <parallel>methods</parallel>
+			    <threadCount>2</threadCount>
+			    <useUnlimitedThreads>false</useUnlimitedThreads>
 				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
