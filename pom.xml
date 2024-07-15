@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.18.0</version>
+			<version>4.22.0</version>
 		</dependency>
 
 		<!--
@@ -171,10 +171,10 @@
 			            <name>threadcount</name>
 			            <value>5</value>        
 			        </property>-->
-			        <property>
+			        <!--<property>
 			            <name>dataproviderthreadcount</name>   
 			            <value>3</value>
-			        </property>
+			        </property>-->
 			    </properties>
 			    <parallel>methods</parallel>
 			    <threadCount>2</threadCount>
