@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    
+    parameters {
+        choice (choices: ['chrome', 'firefox'], description: 'Select the browser name', name: 'BROWSER')
+        choice (choices: ['test', 'verify'], description: 'Select another browser name', name: 'CMD')
+    }
 
     tools {
         maven "MAVEN_HOME"
@@ -15,7 +20,8 @@ pipeline {
         stage('ExecuteTest') {
             steps {
                 // To run Maven on a Windows agent, use
-                bat " mvn clean test -Dbrowser=firefox"
+                //bat " mvn clean test -Dbrowser=firefox"
+                bat " mvn clean ${params.CMD} -Dbrowser=${params.BROWSER}"
             }
         }
         stage('Publish Extent Report') {
